@@ -1381,7 +1381,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #cf16ff;
+  background: #ffff21;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -1875,10 +1875,17 @@ pre code {
   margin-top: 40px;
   text-align: center;
 }
-.use-motion .post-block,
+.use-motion .post-block {
+  opacity: 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
 .use-motion .pagination,
 .use-motion .comments {
-  visibility: hidden;
+  opacity: 0;
 }
 .use-motion .post-header {
   visibility: hidden;
